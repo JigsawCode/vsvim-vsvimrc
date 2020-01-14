@@ -1,0 +1,6 @@
+inoremap ;; <C-o>A;
+inoremap {} {
+inoremap {{ <C-o>A{<cr>
+inoremap <C-e> <C-o>$
+nnoremap <NL> i<CR><ESC>
+set tabstop=4 shiftwidth=4 expandtab
